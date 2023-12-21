@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(287.56deg, #0F0C29 0%, #302B63 50%, #24243E 100%);
+}
+
+img {
+    position: absolute;
+}
+
+input,
+button {
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+label {
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+input {
+    padding: 17px 0 17px 23px;
+}
+
+.login {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 690px;
+    height: 690px;
+} 
+
+.login__title{
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+.login__header {
+    margin-top: 13px;
+    font: bold 38px "Gilroy", sans-serif;
+    font-style: normal;
+    line-height: 46px;
+    color: white; 
+}
+
+.login__email {
+    margin-bottom: 30px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.login__forgPass {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    margin-top: 17px;
+    text-decoration: none;
+}
+
+.login__button {
+    background-color: #BD0C47;
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 218px;
+    padding-top: 2px;
+    margin-top: 73px;
+}
+
+.login__block {
+    margin: 48px 96px 48px 96px;
+}
+
+input::placeholder,
+.login__orCont {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BCBEC0;
+}
+
+.login__orCont{
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 32px;
+}
+
+.login__icons_item {
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__icons_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.login__register {
+    font-family: "Gilroy", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 32px;
+    color: white;
+}
+
+.login__register_question {
+    line-height: 16px;
+    font-weight: normal;
+}
+
+.login__register_link {
+    font-weight: 600px;
+    line-height: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.login__register,
+.login__orCont {
+    text-align: center;
+}
+
+.img__one {
+    left: 66.3%;
+    right: 24.52%;
+    top: 68.89%;
+    bottom: 25.87%;
+    z-index: 1;
+}
+
+.img__two {
+    left: 14.84%;
+    right: 65.42%;
+    top: 28.25%;
+    bottom: 59.47%;
+    z-index: 1;
+}
+
+.img__three {
+    left: 49.9%;
+    right: 15.3%;
+    top: 10.28%;
+    bottom: 32.06%;
+}
+
+.img__four{
+    left: 22.9%;
+    right: 57.86%;
+    top: 59.48%;
+    bottom: 6.31%;
+}
+
+.img__five{
+    left: 21.67%;
+    right: 66.42%;
+    top: 73.47%;
+    bottom: 12.49%;
+}

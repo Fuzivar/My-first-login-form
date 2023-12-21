@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    color: #0d4cd3;
+    cursor: pointer;
+}
+
+.main__header {
+    height: 64px;
+    padding: 0px 75px 0px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLocation { 
+    
+}
+
+.catalog {
+    height: 24px;
+    width: 24px;
+    padding: auto;
+    display: inline;
+}
+
